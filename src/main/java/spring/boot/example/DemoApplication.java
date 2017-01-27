@@ -18,6 +18,5 @@ public class DemoApplication {
 		ApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
 		HelloBean hellobean = ctx.getBean(HelloBean.class);
 		System.out.println(hellobean.sayHello());
-		SpringApplication.run(DemoApplication.class, args);
 	}
 }
